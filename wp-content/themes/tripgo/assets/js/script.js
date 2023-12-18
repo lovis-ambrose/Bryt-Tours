@@ -48,7 +48,7 @@
         });
     }
 
-	/* Click scroll button at bottom */	
+	/* Click scroll button at bottom */
 	function tripgo_scrollUp(options) {
 	       
 		var defaults = {
@@ -58,7 +58,7 @@
 		    animation: 'fade', 
 		    animationInSpeed: 200, 
 		    animationOutSpeed: 200, 
-		    scrollText: '<i class="ovaicon-up-arrow"></i>', 
+		    scrollText: '<i class="fa-solid fa-arrow-up"></i>', 
 		    scrollImg: false, 
 		    activeOverlay: false 
 		};
