@@ -61,8 +61,8 @@
 		          smartSpeed: owlsl_ops.smartSpeed,
 		          rtl: owlsl_ops.rtl,
 		          navText:[
-		          		'<i class="icomoon icomoon-arrow-left"></i>',
-		          		'<i class="icomoon icomoon-arrow-right"></i>',
+					'<i class="fa-solid fa-chevron-left"></i>',
+					'<i class="fa-solid fa-chevron-right"></i>',
 		          ],
 		          responsive: responsive_value,
 		        });
