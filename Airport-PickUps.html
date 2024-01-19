@@ -10,6 +10,24 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
 
+   <style>
+		.ova-my-account-button{
+			background-color: #FD4C5C;
+			padding: 8px 25px 8px 25px;
+			border-radius: 5px;
+		}
+		.ova-my-account-button .singup-button{
+			color: #fff;
+		}
+		.ova-my-account-button:hover{
+			background-color: #fff;
+			border: 1px solid #FD4C5C;
+		}
+		.ova-my-account-button:hover .singup-button{
+			color: #FD4C5C;
+		}
+	</style>
+
    <!-- font awesome -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
@@ -939,7 +957,7 @@ element.elementor-element-4f8c01d .ova-title .title {
 																Home
 															</a>
 														</li>
-														<li id="menu-item-48" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-about">
+														<li id="menu-item-48" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-about">
 															<a title="About Us" href="./about.html">
 																About Us
 															</a>
@@ -962,12 +980,12 @@ element.elementor-element-4f8c01d .ova-title .title {
 																</li>
 															</ul>
 														</li>
-														<li id="menu-item-6041" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-6041 dropdown">
+														<li id="menu-item-6041" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-6041 current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor dropdown">
 															<a title="our Services" href="#" >
 																Services
 															</a>
 															<ul class="sub-menu" role="menu">
-																<li id="menu-item-6039" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6039 dropdown">
+																<li id="menu-item-6039" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6039  current-menu-parent dropdown">
 																	<a title="Airport Pickups" href="./Airport-PickUps.html" >
 																		Airport Pickups
 																	</a>
@@ -1148,16 +1166,16 @@ element.elementor-element-4f8c01d .ova-title .title {
 													<div class="primary-navigation">
 														<ul id="menu-primary-menu-1" class="menu">
 															<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-48"><a href="./index.html">Home</a></li>
-															<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-about current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-48"><a href="./about.html">About Us</a></li>
+															<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-about menu-item-48"><a href="./about.html">About Us</a></li>
 															<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-60"><a href="#">Tours</a>
 																<ul class="sub-menu">
-																	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7726"><a href="#">Short Tour</a></li>
-																	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7727"><a href="#">Long Tours</a></li>
+																	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7726"><a href="./short-tours.html">Short Tour</a></li>
+																	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7727"><a href="./long-tours.html">Long Tours</a></li>
 																</ul>
 															</li>
-															<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-6041"><a href="#">Our Services</a>
+															<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-6041"><a href="#">Our Services</a>
 																<ul class="sub-menu">
-																	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6039"><a href="./Airport-PickUps.html">Airport Pickups</a></li>
+																	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6039 current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor"><a href="./Airport-PickUps.html">Airport Pickups</a></li>
 																	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6038"><a href="./Tour-Guiding.html">Tour Guidance</a></li>
 																	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6037"><a href="./Hotel-Reservations.html">Hotel Booking</a></li>
 																	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7050"><a href="./car-rentals.html">Car Rentals</a></li>
@@ -1282,7 +1300,7 @@ element.elementor-element-4f8c01d .ova-title .title {
                                             <div class="elementor-button-wrapper">
                                                 <a class="elementor-button elementor-button-link elementor-size-sm" href="https://payments.pesapal.com/finfoottoursandconsultants">
                                                     <span class="elementor-button-content-wrapper">
-						<span class="elementor-button-text">BOOK Now</span>
+														<span class="elementor-button-text">Book Now</span>
                                                     </span>
                                                 </a>
                                             </div>

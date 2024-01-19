@@ -115,6 +115,24 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 		}
 	}
 </style>
+
+<style>
+	.ova-my-account-button{
+		background-color: #FD4C5C;
+		padding: 8px 25px 8px 25px;
+		border-radius: 5px;
+	}
+	.ova-my-account-button .singup-button{
+		color: #fff;
+	}
+	.ova-my-account-button:hover{
+		background-color: #fff;
+		border: 1px solid #FD4C5C;
+	}
+	.ova-my-account-button:hover .singup-button{
+		color: #FD4C5C;
+	}
+</style>
 <link rel='stylesheet' id='elementor-icons-css' href='https://finfoottours.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.21.0' type='text/css' media='all' />
 <link rel='stylesheet' id='elementor-frontend-css' href='https://finfoottours.com/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.15.2' type='text/css' media='all' />
 <link rel='stylesheet' id='swiper-css' href='https://finfoottours.com/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5' type='text/css' media='all' />
@@ -939,7 +957,7 @@ element.elementor-element-4f8c01d .ova-title .title {
 																Home
 															</a>
 														</li>
-														<li id="menu-item-48" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-about">
+														<li id="menu-item-48" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-about">
 															<a title="About Us" href="./about.html">
 																About Us
 															</a>
@@ -962,7 +980,7 @@ element.elementor-element-4f8c01d .ova-title .title {
 																</li>
 															</ul>
 														</li>
-														<li id="menu-item-6041" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-6041 dropdown">
+														<li id="menu-item-6041" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-6041 dropdown">
 															<a title="our Services" href="#" >
 																Services
 															</a>
@@ -987,7 +1005,7 @@ element.elementor-element-4f8c01d .ova-title .title {
 																		Car Rentals
 																	</a>
 																</li>
-																<li id="menu-item-7050" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7050 dropdown">
+																<li id="menu-item-7050" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7050 current-menu-parent dropdown">
 																	<a title="Travel Consultancy" href="./Travel-Consultants.html" >
 																		Travel Consultancy
 																	</a>
@@ -1148,20 +1166,20 @@ element.elementor-element-4f8c01d .ova-title .title {
 													<div class="primary-navigation">
 														<ul id="menu-primary-menu-1" class="menu">
 															<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-48"><a href="./index.html">Home</a></li>
-															<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-about current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-48"><a href="./about.html">About Us</a></li>
+															<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-about menu-item-48"><a href="./about.html">About Us</a></li>
 															<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-60"><a href="#">Tours</a>
 																<ul class="sub-menu">
-																	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7726"><a href="#">Short Tour</a></li>
-																	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7727"><a href="#">Long Tours</a></li>
+																	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7726"><a href="./short-tours.html">Short Tour</a></li>
+																	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7727"><a href="./long-tours.html">Long Tours</a></li>
 																</ul>
 															</li>
-															<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-6041"><a href="#">Our Services</a>
+															<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-6041"><a href="#">Our Services</a>
 																<ul class="sub-menu">
 																	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6039"><a href="./Airport-PickUps.html">Airport Pickups</a></li>
 																	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6038"><a href="./Tour-Guiding.html">Tour Guidance</a></li>
 																	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6037"><a href="./Hotel-Reservations.html">Hotel Booking</a></li>
 																	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7050"><a href="./car-rentals.html">Car Rentals</a></li>
-																	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6038"><a href="./Travel-Consultants.html">Travel Consultancy</a></li>
+																	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6038 current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor"><a href="./Travel-Consultants.html">Travel Consultancy</a></li>
 																	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6037"><a href="./Tourism-Training.html">Tourism Training</a></li>
 																	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-7767"><a href="#">Travel Advice</a>
 																		<ul class="sub-menu">
